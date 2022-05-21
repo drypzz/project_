@@ -21,3 +21,7 @@ document.querySelector('#mobile-menu').addEventListener('click',
 getInsertDate = function(type){
     return document.querySelector(type).innerText = new Date().getFullYear();
 };
+
+// callback
+
+getInsertDate('#date');
