@@ -16,8 +16,8 @@
         <nav class='navbar'>
             <div class='navbar-container'>
                 <div class='navbar-logo'>
-                    <a href="#">
-                        <i class="fa-brands fa-slack"></i>
+                    <a href='#'>
+                        <i class='fa-brands fa-slack'></i>
                     </a>
                 </div>
                 <div class='navbar-toggle' id='mobile-menu'>
@@ -30,20 +30,101 @@
                         <a href='#' class='navbar-links active'><i>Inicio</i></a>
                     </li>
                     <li class='navbar-item'>
-                        <a href='#' class='navbar-links'><i>Sobre</i></a>
+                        <a href='#about' class='navbar-links'><i>Sobre</i></a>
                     </li>
                     <li class='navbar-item'>
-                        <a href='#' class='navbar-links'><i>Contato</i></a>
+                        <a href='#contact' class='navbar-links'><i>Contato</i></a>
                     </li>
                     <li class='navbar-item icons'>
-                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
-                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href='#'><i class='fa-brands fa-facebook'></i></a>
+                        <a href='#'><i class='fa-brands fa-instagram'></i></a>
+                        <a href='#'><i class='fa-brands fa-youtube'></i></a>
+                        <a href='#'><i class='fa-brands fa-twitter'></i></a>
                     </li>
                 </ul>
             </div>
         </nav>
+
+        <div class='main-001'>
+            <div class='container'>
+                <h1 class='tittle'>
+                    Seja <span>Bem-vindo(a)</span> ao nosso 'Museu de Informática'<span>.</span>
+                </h1>
+            </div>
+        </div>
+
+        <div id='about' class='main-002'>
+            <div class='container'>
+                <span class='category'>Sobre Nos</span>
+                <h1 class='tittle'>
+                    Um pouco <span>sobre nos</span>.
+                </h1>
+                <div class='intro-about'>
+                    <div class='intro-about-container'>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                        <img src='assets/gfx/about.svg' alt=''>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id='contact' class='main-003'>
+            <div class='container'>
+                <span class='category'>Contato</span>
+                <h1 class='tittle'>
+                    <span>Contate-nos</span> aqui.
+                </h1>
+                <div class='intro-info'>
+                    <div class='intro-info-container'>
+                        <img src='assets/gfx/form.svg' alt=''>
+                        <h2>Preencha o <span>formulario</span> abaixo.</h2>
+                    </div>
+                    <div class='intro-info-container'>
+                        <form class='form' action=''>
+                            <div class="form-container">
+                                <div class='form-group'>
+                                    <label for='name'>Seu nome:</label>
+                                    <input type='text' placeholder='Loiro' id='name'>
+                                </div>
+                                <div class='form-group'>
+                                    <label for='email'>Seu email:</label>
+                                    <input type='text' placeholder='function@1234.com' id='email'>
+                                </div>
+                                <div class='form-group'>
+                                    <label for='msg'>Menssagem:</label>
+                                    <textarea name='msg' id='msg' cols='30' placeholder="elseif" rows='10'></textarea>
+                                </div>
+                                <div class='form-group'>
+                                    <div class="form-group-button">
+                                        <input type='submit' value='Enviar'>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-info logo">
+                    <a href='#'>
+                        <i class='fa-brands fa-slack'></i>
+                    </a>
+                </div>
+                <div class="footer-info">
+                    <a href='#'><i class='fa-brands fa-facebook'></i></a>
+                    <a href='#'><i class='fa-brands fa-instagram'></i></a>
+                    <a href='#'><i class='fa-brands fa-youtube'></i></a>
+                    <a href='#'><i class='fa-brands fa-twitter'></i></a>
+                </div>
+                <div style="text-align: center;" class="footer-info">
+                    <p>Copyright © 2022 - 2nd Year I.T Developers</p>
+                </div>
+            </div>
+        </footer>
+
         <!-- javascript -->
         <script src='assets/javascript/js.js'></script>
     </body>
