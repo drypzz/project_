@@ -448,6 +448,7 @@ span.category{
     color: #fff;
     margin: 0 auto;
     font-size: 100px;
+    transition: all .5s ease;
 }
 
 .footer-info.logo a:hover i{
