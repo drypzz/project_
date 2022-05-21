@@ -18,6 +18,7 @@ body{
     height: 100%;
     line-height: 18px;
     color: #d7d7d7;
+    overflow-x: hidden;
     background-color: #222729;   
 }
 
@@ -239,18 +240,21 @@ span.category{
 .main-002 .container .intro-about{
     display: grid;
     justify-items: center;
+    transition: all .5s ease;
 }
 
 .main-002 .container .intro-about .intro-about-container{
     display: grid;
     grid-template-columns: 2fr 1fr;
     gap: 2rem;
+    transition: all .5s ease;
 }
 
 .main-002 .container .intro-about .intro-about-container p{
     font-size: 1rem;
     line-height: 1.5;
     max-width: 38.3125rem;
+    transition: all .5s ease;
 }
 
 
@@ -267,6 +271,7 @@ span.category{
 .main-003 .container .intro-info{
     height: 100%;
     width: 100%;
+    transition: all .5s ease;
 }
 
 .main-003 .container .intro-info .intro-info-container{
@@ -276,10 +281,12 @@ span.category{
     justify-content: center;
     flex-direction: column;
     margin-bottom: 10px;
+    transition: all .5s ease;
 }
 
 .main-003 .container .intro-info .intro-info-container img{
     width: 300px;
+    transition: all .5s ease;
 }
 
 
@@ -288,6 +295,7 @@ span.category{
 
 .main-003 .container .intro-info .intro-info-container .form{
     padding: 20px;
+    transition: all .5s ease;
 }
 
 .main-003 .container .intro-info .intro-info-container .form-container{
@@ -296,16 +304,19 @@ span.category{
     padding: 20px;
     width: 800px;
     height: 100%;
+    transition: all .5s ease;
 }
 
 .main-003 .container .intro-info .intro-info-container .form .form-group{
     padding: 20px;
     width: 100%;
     height: 100%;
+    transition: all .5s ease;
 }
 
 .main-003 .container .intro-info .intro-info-container .form .form-group label{
     display: block;
+    transition: all .5s ease;
 }
 
 .main-003 .container .intro-info .intro-info-container .form .form-group input[type = 'text']{
@@ -314,14 +325,22 @@ span.category{
     outline: none;
     padding: 10px;
     background: none;
-    color: #d7d7d7;
+    color: #808080;
     border: none;
+    transition: all .5s ease;
     border-bottom: 1px solid #037EDB;
 }
 
 .main-003 .container .intro-info .intro-info-container .form .form-group input[type = 'text']:focus, .main-003 .container .intro-info .intro-info-container .form .form-group input[type = 'text']:hover{
     border-bottom: 1px solid #0b5c9b;
+    transition: all .5s ease;
 }
+
+.main-003 .container .intro-info .intro-info-container .form .form-group input[type = 'text']:focus{
+    color: #d7d7d7;
+    transition: all .5s ease;
+}
+
 
 .main-003 .container .intro-info .intro-info-container .form .form-group textarea{
     width: 100%;
@@ -330,12 +349,19 @@ span.category{
     padding: 10px;
     outline: none;
     background: none;
-    color: #d7d7d7;
+    color: #808080;
     border: 1px solid #037EDB;
+    transition: all .5s ease;
 }
 
 .main-003 .container .intro-info .intro-info-container .form .form-group textarea:hover, .main-003 .container .intro-info .intro-info-container .form .form-group textarea:focus{
     border: 1px solid #0b5c9b;
+    transition: all .5s ease;
+}
+
+.main-003 .container .intro-info .intro-info-container .form .form-group textarea:focus{
+    color: #d7d7d7;
+    transition: all .5s ease;
 }
 
 .main-003 .container .intro-info .intro-info-container .form .form-group .form-group-button{
@@ -344,6 +370,7 @@ span.category{
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: all .5s ease;
 }
 
 .main-003 .container .intro-info .intro-info-container .form .form-group .form-group-button input[type = 'submit']{
@@ -375,6 +402,7 @@ span.category{
     width: 100%;
     height: 100%;
     padding: 20px;
+    transition: all .5s ease;
 }
 
 .footer-container{
@@ -384,10 +412,12 @@ span.category{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    transition: all .5s ease;
 }
 
 .footer-info{
     margin-top: 10px;
+    transition: all .5s ease;
 }
 
 .footer-info a{
@@ -402,6 +432,7 @@ span.category{
 
 .footer-info a i{
     margin-top: 20px;
+    transition: all .5s ease;
 }
 
 .footer-info.logo a i{
