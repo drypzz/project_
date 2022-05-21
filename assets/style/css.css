@@ -402,7 +402,6 @@ span.category{
     width: 100%;
     height: 100%;
     padding: 20px;
-    transition: all .5s ease;
 }
 
 .footer-container{
@@ -412,12 +411,10 @@ span.category{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    transition: all .5s ease;
 }
 
 .footer-info{
     margin-top: 10px;
-    transition: all .5s ease;
 }
 
 .footer-info a{
@@ -432,14 +429,12 @@ span.category{
 
 .footer-info a i{
     margin-top: 20px;
-    transition: all .5s ease;
 }
 
 .footer-info.logo a i{
     color: #fff;
     margin: 0 auto;
     font-size: 100px;
-    transition: all .5s ease;
 }
 
 .footer-info.logo a:hover i{
