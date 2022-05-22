@@ -274,20 +274,58 @@ span.category{
 
 
 
-/* main-003 */
+/* main-004 */
 
 .main-003{
     padding: 1rem 0;
     background-color: var(--color-secondary);
 }
 
-.main-003 .container .intro-info{
+.main-003 .container .intro-obrs{
     height: 100%;
     width: 100%;
     transition: all .5s ease;
 }
 
-.main-003 .container .intro-info .intro-info-container{
+.main-003 .container .intro-obrs .intro-obrs-container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 10px;
+    transition: all .5s ease;
+}
+
+.main-003 .container .intro-obrs .intro-obrs-container img{
+    width: 300px;
+    transition: all .5s ease;
+}
+
+.main-003 .container .intro-obrs .intro-obrs-container p{
+    font-size: 1rem;
+    line-height: 1.5;
+    max-width: 38.3125rem;
+    transition: all .5s ease;
+}
+
+
+
+
+/* main-004 */
+
+.main-004{
+    padding: 1rem 0;
+    background-color: var(--color-body);
+}
+
+.main-004 .container .intro-info{
+    height: 100%;
+    width: 100%;
+    transition: all .5s ease;
+}
+
+.main-004 .container .intro-info .intro-info-container{
     height: 100%;
     display: flex;
     align-items: center;
@@ -297,7 +335,7 @@ span.category{
     transition: all .5s ease;
 }
 
-.main-003 .container .intro-info .intro-info-container img{
+.main-004 .container .intro-info .intro-info-container img{
     width: 300px;
     transition: all .5s ease;
 }
@@ -306,13 +344,13 @@ span.category{
 
 /* form */
 
-.main-003 .container .intro-info .intro-info-container .form{
+.main-004 .container .intro-info .intro-info-container .form{
     padding: 20px;
     transition: all .5s ease;
 }
 
-.main-003 .container .intro-info .intro-info-container .form-container{
-    background-color: var(--color-body);
+.main-004 .container .intro-info .intro-info-container .form-container{
+    background-color: var(--color-secondary);
     border-radius: 5px;
     padding: 20px;
     width: 800px;
@@ -320,19 +358,19 @@ span.category{
     transition: all .5s ease;
 }
 
-.main-003 .container .intro-info .intro-info-container .form .form-group{
+.main-004 .container .intro-info .intro-info-container .form .form-group{
     padding: 20px;
     width: 100%;
     height: 100%;
     transition: all .5s ease;
 }
 
-.main-003 .container .intro-info .intro-info-container .form .form-group label{
+.main-004 .container .intro-info .intro-info-container .form .form-group label{
     display: block;
     transition: all .5s ease;
 }
 
-.main-003 .container .intro-info .intro-info-container .form .form-group input[type = 'text']{
+.main-004 .container .intro-info .intro-info-container .form .form-group input[type = 'text']{
     width: 100%;
     height: 40px;
     outline: none;
@@ -344,18 +382,18 @@ span.category{
     border-bottom: 1px solid var(--color-primary);
 }
 
-.main-003 .container .intro-info .intro-info-container .form .form-group input[type = 'text']:focus, .main-003 .container .intro-info .intro-info-container .form .form-group input[type = 'text']:hover{
+.main-004 .container .intro-info .intro-info-container .form .form-group input[type = 'text']:focus, .main-004 .container .intro-info .intro-info-container .form .form-group input[type = 'text']:hover{
     border-bottom: 1px solid var(--color-rgba);
     transition: all .5s ease;
 }
 
-.main-003 .container .intro-info .intro-info-container .form .form-group input[type = 'text']:focus{
+.main-004 .container .intro-info .intro-info-container .form .form-group input[type = 'text']:focus{
     color: var(--color-text);
     transition: all .5s ease;
 }
 
 
-.main-003 .container .intro-info .intro-info-container .form .form-group textarea{
+.main-004 .container .intro-info .intro-info-container .form .form-group textarea{
     width: 100%;
     height: 100px;
     resize: none;
@@ -367,17 +405,17 @@ span.category{
     transition: all .5s ease;
 }
 
-.main-003 .container .intro-info .intro-info-container .form .form-group textarea:hover, .main-003 .container .intro-info .intro-info-container .form .form-group textarea:focus{
+.main-004 .container .intro-info .intro-info-container .form .form-group textarea:hover, .main-004 .container .intro-info .intro-info-container .form .form-group textarea:focus{
     border: 1px solid var(--color-rgba);
     transition: all .5s ease;
 }
 
-.main-003 .container .intro-info .intro-info-container .form .form-group textarea:focus{
+.main-004 .container .intro-info .intro-info-container .form .form-group textarea:focus{
     color: var(--color-text);
     transition: all .5s ease;
 }
 
-.main-003 .container .intro-info .intro-info-container .form .form-group .form-group-button{
+.main-004 .container .intro-info .intro-info-container .form .form-group .form-group-button{
     height: 100%;
     width: 100%;
     display: flex;
@@ -386,7 +424,7 @@ span.category{
     transition: all .5s ease;
 }
 
-.main-003 .container .intro-info .intro-info-container .form .form-group .form-group-button input[type = 'submit']{
+.main-004 .container .intro-info .intro-info-container .form .form-group .form-group-button input[type = 'submit']{
     width: 30%;
     height: 50px;
     cursor: pointer;
@@ -398,7 +436,7 @@ span.category{
     transition: all .5s ease;
 }
 
-.main-003 .container .intro-info .intro-info-container .form .form-group .form-group-button input[type = 'submit']:hover{
+.main-004 .container .intro-info .intro-info-container .form .form-group .form-group-button input[type = 'submit']:hover{
     background-color: var(--color-primary);
     border: 1px solid var(--color-primary);
     color: #fff;
@@ -415,6 +453,7 @@ span.category{
     width: 100%;
     height: 100%;
     padding: 20px;
+    background-color: var(--color-secondary);
 }
 
 .footer-container{
@@ -466,18 +505,28 @@ span.category{
         padding: 8rem 0;
     }
 
-    .main-003 .container .intro-info .intro-info-container .form{
+    .main-003 .container .intro-obrs .intro-obrs-container{
+        flex-direction: column;
+        margin-top: 50px;
+        border-bottom: 1px solid var(--color-primary);
+    }
+
+    .main-003 .container .intro-obrs .intro-obrs-container p{
+        margin-bottom: 20px;
+    }
+
+    .main-004 .container .intro-info .intro-info-container .form{
         width: 100%;
         height: 100%;
     }
 
-    .main-003 .container .intro-info .intro-info-container .form-container{
+    .main-004 .container .intro-info .intro-info-container .form-container{
         width: 100%;
         margin: 0 auto;
         height: 100%;
     }
 
-    .main-003 .container .intro-info .intro-info-container .form .form-group{
+    .main-004 .container .intro-info .intro-info-container .form .form-group{
         padding: 10px;
     }
 
