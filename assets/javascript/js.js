@@ -1,3 +1,11 @@
+//////////////////////////////////////
+//  # Copyright © - 2° ano de T.I;
+//  # Type: .js;
+//////////////////////////////////////
+
+
+
+
 // active function
 
 document.querySelectorAll('.navbar-item a').forEach(isActive => {

@@ -1,3 +1,13 @@
+<!--
+--------------------------------
+    # Copyright © - 2° ano de T.I;
+    # Type: .html;
+--------------------------------
+-->
+
+
+
+
 <!DOCTYPE html>
 <html lang='pt-br'>
     <head>
@@ -14,6 +24,13 @@
         <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css'>
     </head>
     <body>
+
+        <!-- loader -->
+        <div class='loader-container'>
+            <div class='loader'></div>
+        </div>
+
+        <!-- navbar -->
         <nav class='navbar'>
             <div class='navbar-container'>
                 <div class='navbar-logo'>
@@ -46,6 +63,7 @@
             </div>
         </nav>
 
+        <!-- 001 -->
         <div class='main-001'>
             <div class='container'>
                 <h1 class='tittle'>
@@ -54,6 +72,7 @@
             </div>
         </div>
 
+        <!-- 002 -->
         <div id='about' class='main-002'>
             <div class='container'>
                 <span class='category'>Sobre Nos</span>
@@ -69,6 +88,7 @@
             </div>
         </div>
 
+        <!-- 003 -->
         <div id='obrs' class='main-003'>
             <div class='container'>
                 <span class='category'>Obras</span>
@@ -92,6 +112,7 @@
             </div>
         </div>
 
+        <!-- form -->
         <div id='contact' class='main-004'>
             <div class='container'>
                 <span class='category'>Contato</span>
@@ -130,6 +151,7 @@
             </div>
         </div>
 
+        <!-- footer -->
         <footer class='footer'>
             <div class='footer-container'>
                 <div class='footer-info logo'>
@@ -148,6 +170,16 @@
                 </div>
             </div>
         </footer>
+
+        <!-- jquery -->
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
+
+        <!-- loader -->
+        <script>
+            $(window).on('load', function(){
+                $('.loader-container').fadeOut(1000);
+            });
+        </script>
 
         <!-- javascript -->
         <script src='assets/javascript/js.js'></script>
