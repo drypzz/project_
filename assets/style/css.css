@@ -525,8 +525,9 @@ span.category{
     height: 100%;
     color: #fff;
     text-align: center;
+    cursor: default;
     padding: 30px;
-    background: linear-gradient(135deg, #4dc8ff, var(--color-primary));
+    background: linear-gradient(190deg, #da48f7, var(--color-primary));
 }
 
 .copy p span{
