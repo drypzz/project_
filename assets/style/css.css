@@ -524,6 +524,7 @@ span.category{
     justify-content: center;
     height: 100%;
     color: #fff;
+    text-align: center;
     padding: 30px;
     background: linear-gradient(135deg, #4dc8ff, var(--color-primary));
 }
