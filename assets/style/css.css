@@ -331,9 +331,14 @@ span.category{
 
 .main-003 .container .intro-obrs .intro-obrs-container{
     height: 100%;
+    width: 80%;
+    padding: 10px;
+    margin: 0 auto;
     display: flex;
     align-items: center;
-    justify-content: center;
+    background-color: var(--color-body);
+    border-radius: 5px;
+    justify-content: space-around;
     flex-direction: row;
     margin-bottom: 10px;
     transition: all .5s ease;
@@ -341,12 +346,14 @@ span.category{
 
 .main-003 .container .intro-obrs .intro-obrs-container img{
     width: 300px;
+    padding: 10px;
     transition: all .5s ease;
 }
 
 .main-003 .container .intro-obrs .intro-obrs-container p{
     font-size: 1rem;
     line-height: 1.5;
+    padding: 10px;
     max-width: 38.3125rem;
     transition: all .5s ease;
 }
@@ -549,6 +556,8 @@ span.category{
 
     .main-003 .container .intro-obrs .intro-obrs-container{
         flex-direction: column;
+        justify-content: center;
+        width: 100%;
         margin-top: 50px;
         border-bottom: 1px solid var(--color-primary);
     }
@@ -559,6 +568,7 @@ span.category{
 
     .main-004 .container .intro-info .intro-info-container .form{
         width: 100%;
+        padding: 0;
         height: 100%;
     }
 
