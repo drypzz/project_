@@ -379,7 +379,7 @@ span.category{
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
     margin-bottom: 10px;
     transition: all .5s ease;
 }
@@ -587,6 +587,10 @@ span.category{
 
     .main-003 .container .intro-obrs .intro-obrs-container p{
         margin-bottom: 20px;
+    }
+
+    .main-004 .container .intro-info .intro-info-container{
+        flex-direction: column;
     }
 
     .main-004 .container .intro-info .intro-info-container .form{
