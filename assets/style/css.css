@@ -346,11 +346,17 @@ span.category{
 
 .main-003 .container .intro-obrs .intro-obrs-container img{
     width: 300px;
-    padding: 10px;
+    background-color: var(--color-primary);
+    padding: 5px;
     transition: all .5s ease;
 }
 
+.main-003 .container .intro-obrs .intro-obrs-container img.ada{
+    width: 170px;
+}
+
 .main-003 .container .intro-obrs .intro-obrs-container p{
+    text-align: justify;
     font-size: 1rem;
     line-height: 1.5;
     padding: 10px;
@@ -587,6 +593,7 @@ span.category{
 
     .main-003 .container .intro-obrs .intro-obrs-container p{
         margin-bottom: 20px;
+        text-align: left;
     }
 
     .main-004 .container .intro-info .intro-info-container .form{
