@@ -586,13 +586,13 @@ span.category{
     .main-003 .container .intro-obrs .intro-obrs-container{
         flex-direction: column;
         justify-content: center;
+        padding: 20px;
         width: 100%;
-        margin-top: 50px;
         border-bottom: 1px solid var(--color-primary);
     }
 
     .main-003 .container .intro-obrs .intro-obrs-container p{
-        margin-bottom: 20px;
+        padding: 20px;
         text-align: left;
     }
 
