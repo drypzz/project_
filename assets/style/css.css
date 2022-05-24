@@ -325,15 +325,15 @@ span.category{
 
 .main-003 .container .intro-obrs{
     height: 100%;
-    width: 100%;
+    width: 80%;
     transition: all .5s ease;
 }
 
 .main-003 .container .intro-obrs .intro-obrs-container{
     height: 100%;
-    width: 80%;
+    width: 100%;
     padding: 10px;
-    margin: 0 auto;
+    margin: 20px 0;
     display: flex;
     align-items: center;
     background-color: var(--color-body);
@@ -342,6 +342,30 @@ span.category{
     flex-direction: row;
     margin-bottom: 10px;
     transition: all .5s ease;
+}
+
+.main-003 .container .intro-obrs .intro-obrs-container.fonte{
+    height: 100%;
+    width: 100%;
+    padding: 5px;
+    margin: 0 auto;
+    display: flex;
+    background: none;
+    align-items: center;
+    justify-content: left;
+}
+
+.main-003 .container .intro-obrs .intro-obrs-container.fonte .fonte{
+    background-color: var(--color-body);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    border-radius: 5px;
+}
+
+.main-003 .container .intro-obrs .intro-obrs-container.fonte .fonte p a{
+    color: var(--color-primary);
 }
 
 .main-003 .container .intro-obrs .intro-obrs-container img{
@@ -578,17 +602,32 @@ span.category{
 
 /* responsive */
 
+@media screen and (max-width: 1024px){
+    .main-003 .container .intro-obrs{
+        width: 100%;
+    }
+}
+
 @media screen and (max-width: 960px){
     .main-001{
         padding: 8rem 0;
+    }
+    
+    .main-003 .container .intro-obrs{
+        width: 100%;
     }
 
     .main-003 .container .intro-obrs .intro-obrs-container{
         flex-direction: column;
         justify-content: center;
-        padding: 20px;
+        padding: 30px 0;
+        margin: 30px 0;
         width: 100%;
         border-bottom: 1px solid var(--color-primary);
+    }
+
+    .main-003 .container .intro-obrs .intro-obrs-container.fonte{
+        border-bottom: none;
     }
 
     .main-003 .container .intro-obrs .intro-obrs-container p{
