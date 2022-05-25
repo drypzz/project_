@@ -420,12 +420,12 @@ span.category{
     width: 170px;
 }
 
-.main-003 .container .intro-obrs .intro-obrs-container p{
+.main-003 .container .intro-obrs .intro-obrs-container .intro-obrs-content p{
     text-align: justify;
     font-size: 1rem;
     line-height: 1.5;
     padding: 10px;
-    max-width: 50rem;
+    width: 60%;
     transition: all .5s ease;
 }
 
@@ -679,7 +679,8 @@ span.category{
 
     .main-003 .container .intro-obrs .intro-obrs-container .intro-obrs-content p{
         padding: 20px;
-        text-align: left;
+        width: 100%;
+        text-align: center;
     }
 
     .main-003 .container .intro-obrs .intro-obrs-container .intro-obrs-content img{
