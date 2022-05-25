@@ -332,15 +332,50 @@ span.category{
 .main-003 .container .intro-obrs .intro-obrs-container{
     height: 100%;
     width: 100%;
-    padding: 10px;
     margin: 20px 0;
     display: flex;
     align-items: center;
     background-color: var(--color-body);
     border-radius: 5px;
-    justify-content: space-around;
+    justify-content: center;
+    flex-direction: column;
+    transition: all .5s ease;
+}
+
+.main-003 .container .intro-obrs .intro-obrs-container .intro-obrs-content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.main-003 .container .intro-obrs .intro-obrs-container .intro-obrs-tittle{
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-003 .container .intro-obrs .intro-obrs-container .intro-obrs-tittle span{
+    font-size: 0.875rem;
+    line-height: 1.5;
+    display: block;
+    color: var(--color-span);
+    text-transform: uppercase;
+    letter-spacing: .3125rem;
+}
+
+.main-003 .container .intro-obrs .intro-obrs-container .intro-obrs-content{
+    height: 100%;
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
     flex-direction: row;
-    margin-bottom: 10px;
     transition: all .5s ease;
 }
 
@@ -355,17 +390,23 @@ span.category{
     justify-content: left;
 }
 
-.main-003 .container .intro-obrs .intro-obrs-container.fonte .fonte{
-    background-color: var(--color-body);
+.main-003 .container .intro-obrs .intro-obrs-container.fonte .fonte a{
+    background: none;
     height: 100%;
+    padding: 10px;
+    border: 1px solid var(--color-primary);
+    color: var(--color-primary);
     display: flex;
     align-items: center;
     justify-content: left;
     border-radius: 5px;
+    transition: all .5s ease;
 }
 
-.main-003 .container .intro-obrs .intro-obrs-container.fonte .fonte p a{
-    color: var(--color-primary);
+.main-003 .container .intro-obrs .intro-obrs-container.fonte .fonte a:hover{
+    color: #fff;
+    background-color: var(--color-primary);
+    transition: all .5s ease;
 }
 
 .main-003 .container .intro-obrs .intro-obrs-container img{
@@ -384,7 +425,7 @@ span.category{
     font-size: 1rem;
     line-height: 1.5;
     padding: 10px;
-    max-width: 38.3125rem;
+    max-width: 50rem;
     transition: all .5s ease;
 }
 
@@ -613,26 +654,36 @@ span.category{
         padding: 8rem 0;
     }
     
+    .main-003 .container .intro-obrs .intro-obrs-container .intro-obrs-content{
+        flex-direction: column;
+    }
+
     .main-003 .container .intro-obrs{
         width: 100%;
     }
 
     .main-003 .container .intro-obrs .intro-obrs-container{
-        flex-direction: column;
-        justify-content: center;
         padding: 30px 0;
         margin: 30px 0;
         width: 100%;
         border-bottom: 1px solid var(--color-primary);
     }
 
+    .main-003 .container .intro-obrs .intro-obrs-container .intro-obrs-tittle span{
+        text-align: center;
+    }
+
     .main-003 .container .intro-obrs .intro-obrs-container.fonte{
         border-bottom: none;
     }
 
-    .main-003 .container .intro-obrs .intro-obrs-container p{
+    .main-003 .container .intro-obrs .intro-obrs-container .intro-obrs-content p{
         padding: 20px;
         text-align: left;
+    }
+
+    .main-003 .container .intro-obrs .intro-obrs-container .intro-obrs-content img{
+        width: 210px;
     }
 
     .main-004 .container .intro-info .intro-info-container{
