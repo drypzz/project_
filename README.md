@@ -3,7 +3,7 @@
 </div>
 
 <div align='center'>
-    <p><strong>Ultima atualização:</strong> 24 Mai. 2022<br><strong>Última versão:</strong> 1.0.0</p>
+    <p><strong>Ultima atualização:</strong> 25 Mai. 2022<br><strong>Última versão:</strong> 1.0.0</p>
     <p>>> <a target='_blank' href='https://museuinfo.netlify.app'><i>museuinfo.netlify.app</i></a> <<</p>
 </div>
 
