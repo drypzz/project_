@@ -605,8 +605,14 @@ span.category{
     color: #fff;
 }
 
-.footer-info a{
+.footer-info p a{
     color: var(--color-primary);
+    transition: all .5s ease;
+}
+
+.footer-info p a:hover{
+    transition: all .5s ease;
+    color: var(--color-text);
 }
 
 .footer-info a i{
