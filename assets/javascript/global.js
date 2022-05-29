@@ -42,7 +42,7 @@ const k = [
     {
         id: 3, // 2+1
         text: '<span>Augusta Ada Byron King</span>, Condessa de Lovelace (nascida Byron, 10 de dezembro de <span>1815</span> — 27 de novembro de <span>1852</span>), atualmente conhecida como Ada Lovelace, foi uma matemática e escritora inglesa. Hoje é reconhecida principalmente por ter escrito o primeiro algoritmo para ser processado por uma máquina, a máquina analítica de Charles Babbage. Durante o período em que esteve envolvida com o projeto de Babbage, ela desenvolveu os algoritmos que permitiriam à máquina computar os valores de funções matemáticas, além de publicar uma coleção de notas sobre a máquina analítica. Por esse trabalho é considerada a primeira programadora de toda a história.', // texto
-        title: 'O Primeiro Algoritmor', // titulo
+        title: 'O Primeiro Algoritmo', // titulo
         img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Ada_lovelace.jpg/200px-Ada_lovelace.jpg', // imagem
         class: 'ada', // true - false
         element: '.intro-obrs', // não mexer
