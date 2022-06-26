@@ -3,12 +3,13 @@
 </div>
 
 <div align='center'>
-    <p><strong>Ultima atualização:</strong> 25 Mai. 2022<br><strong>Última versão:</strong> 1.0.0</p>
+    <p><strong>Ultima atualização:</strong> 26 Jul. 2022<br><strong>Última versão:</strong> 2.0.0</p>
+    <p><strong>Website desenvolvido para um fim de trabalho de curso</strong></p>
     <p>>> <a target='_blank' href='https://museuinfo.netlify.app'><i>museuinfo.netlify.app</i></a> <<</p>
 </div>
 
 <div align='center'>
-    <h3>Utilizando no desenvolvimento:</h3>
+    <h3>Utilizado no desenvolvimento:</h3>
     <table>
         <tr>
             <td>
@@ -19,6 +20,9 @@
             </td>
             <td>
                 <img src="https://img.shields.io/badge/CSS3-206991?&style=for-the-badge&logo=css3&logoColor=white" target="_blank" alt="css">
+            </td>
+            <td>
+                <img src="https://img.shields.io/badge/JQUERY-cccccc?&style=for-the-badge&logo=jquery&logoColor=206991" target="_blank" alt="jquery">
             </td>
         </tr>
     </table>
